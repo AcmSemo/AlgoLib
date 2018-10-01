@@ -11,3 +11,13 @@ This repo is for hacktoberfest! Just add an algorithm in whatever language you d
 - StaneCobalt(https://github.com/StaneCobalt)
 
 Other than that, just have fun! Happy Hacktober!
+
+## Contributors
+
+* mclmza
+* nattaaek
+* JoeyKanaly
+* StaneCobalt
+* akshat157
+* dhairyakhale
+* robincher
