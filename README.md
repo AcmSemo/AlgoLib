@@ -7,8 +7,6 @@ This repo is for hacktoberfest! Just add an algorithm in whatever language you d
 - Please follow a camel case naming scheme (ex: BubbleSort.cpp)
 - Code files should go into a directory with the same name as the language they were coded in (ex: Python/InsertionSort.py)
 
-Other than that, just have fun! Happy Hacktober!
-
 ## Contributors
 - [nattaaek](https://github.com/nattaaek)
 - [JoeyKanaly](https://github.com/JoeyKanaly)
@@ -23,3 +21,5 @@ Other than that, just have fun! Happy Hacktober!
 - [impeccableaslan](https://github.com/impeccableaslan)
 - [IsaacYAGI](https://github.com/IsaacYAGI)
 - [Ujjval-Patel](https://github.com/Ujjval-Patel)
+
+Other than that, just have fun! Happy Hacktober!
