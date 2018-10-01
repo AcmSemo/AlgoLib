@@ -24,7 +24,7 @@ void prime_sieve(bool arr[], int n){
         // if value of index i is already false then it is not a prime number
         if(arr[i] == false) continue;
         for(int j = i+i; j <= n; j+=i){
-            // j is not a prime number because it is divided by 2
+            // j is not a prime number because it is divided by i
             arr[j] = false;
         }
     }
