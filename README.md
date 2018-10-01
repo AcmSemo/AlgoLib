@@ -24,3 +24,4 @@ Other than that, just have fun! Happy Hacktober!
 - [impeccableaslan](https://github.com/impeccableaslan)
 - [IsaacYAGI](https://github.com/IsaacYAGI)
 - [Ujjval-Patel](https://github.com/Ujjval-Patel)
+- [VaibhavKhandelwal](https://github.com/Vaibzz)
