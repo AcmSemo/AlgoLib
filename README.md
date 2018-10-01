@@ -8,3 +8,13 @@ This repo is for hacktoberfest! Just add an algorithm in whatever language you d
 - Code files should go into a directory with the same name as the language they were coded in (ex: Python/InsertionSort.py)
 
 Other than that, just have fun! Happy Hacktober!
+
+## Contributors
+
+* mclmza
+* nattaaek
+* JoeyKanaly
+* StaneCobalt
+* akshat157
+* dhairyakhale
+* robincher
