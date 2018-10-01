@@ -9,4 +9,5 @@ This repo is for hacktoberfest! Just add an algorithm in whatever language you d
 
 ## Contributors
 - StaneCobalt(https://github.com/StaneCobalt)
+
 Other than that, just have fun! Happy Hacktober!
