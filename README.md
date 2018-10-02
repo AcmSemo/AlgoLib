@@ -3,8 +3,8 @@ A Library of Algorithms!
 
 This repo is for hacktoberfest! Just add an algorithm in whatever language you desire!
 
-## What is Algorithm?
-Algorithm is a set of steps to solve a problem. We always use algorithm in everyday life. Algorithm helps us to solve problems systematically and effectively without wasting time and resources. An example of algorithm is "Make a tea algorithm".
+## What are Algorithms?
+An algorithm is a set of steps to solve a problem. We always use algorithms in everyday life. Algorithms helps us to solve problems systematically and effectively without wasting time and resources. An example of an algorithm is "Make a tea algorithm".
 Make a tea algorithm:
 - Prepare the ingredients (teabag, sugar, water), a kettle, a stove, a cup, and a spoon
 - Boil the water with kettle on the stove
