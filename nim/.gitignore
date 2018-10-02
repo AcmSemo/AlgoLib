@@ -1,0 +1,7 @@
+# Keep the nim cache directory out of the repo.
+# Hundereds of C files will be generated in here
+nimcache/
+
+# Keep the program binaries out of the repo
+BubbleSort
+RecursiveFibonacci
