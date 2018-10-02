@@ -49,12 +49,12 @@ void merge(int arr[] , int left , int mid , int right){
 }
 
 
-void mergeSort(int arr[] , int l , int r){
+void merge_sort(int arr[] , int l , int r){
 
     if(l < r){
         int m = (l+r)/2;
-        mergeSort(arr , l , m);
-        mergeSort(arr , m+1 , r);
+        merge_sort(arr , l , m);
+        merge_sort(arr , m+1 , r);
         merge(arr , l , m , r);
     }
 
@@ -64,7 +64,7 @@ int main(){
 
     int arr[] = { 12 , 7 , 100 };
     int size = sizeof(arr)/ sizeof(arr[0]);
-    mergeSort(arr , 0 , size-1);
+    merge_sort(arr , 0 , size-1);
     for(int i = 0 ; i < size ; i++){
         cout << arr[i] << " ";
     }
