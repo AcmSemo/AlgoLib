@@ -16,12 +16,6 @@ const randomNumber = (min, max, isInteger) => {
     return rndNumber;
 }
 
-
-// returns a float value between 1 - 100,
-// e.g 58.859484
-console.log(randomNumber(1, 100));
-
-
-// returns a whole number between 1 - 100
-// e.g 39
-console.log(randomNumber(1,100, true));
+if(typeof module !== 'undefined'){
+	module.exports = randomNumber;
+}

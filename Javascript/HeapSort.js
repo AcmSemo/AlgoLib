@@ -41,4 +41,10 @@ function heapSort(input) {
 
        heap_root(input, 0);
    }
+
+   return input;
+}
+
+if(typeof module !== 'undefined'){
+    module.exports = heapSort;
 }

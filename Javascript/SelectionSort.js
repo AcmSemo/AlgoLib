@@ -17,3 +17,7 @@ function selectionSort(items){
   }
   return items;
 }
+
+if(typeof module !== 'undefined'){
+    module.exports = selectionSort;
+}

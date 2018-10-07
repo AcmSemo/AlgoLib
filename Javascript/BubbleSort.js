@@ -40,3 +40,7 @@ console.log(arr1);
 console.log(arr2);
 
 */
+
+if(typeof module !== 'undefined'){
+    module.exports = bubbleSort;
+}
