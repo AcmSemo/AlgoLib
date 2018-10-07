@@ -21,9 +21,6 @@ function quick_Sort(origArray) {
 	}
 }
 
-var myArray = [3, 0, 2, 5, -1, 4, 1 ];
-
-console.log("Original array: " + myArray);
-var sortedArray = quick_Sort(myArray);
-console.log("Sorted array: " + sortedArray);
-
+if(typeof module !== 'undefined'){
+	module.exports = quick_Sort;
+}
