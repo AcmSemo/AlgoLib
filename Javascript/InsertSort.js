@@ -5,7 +5,7 @@ function insertionSort(arr){
     el = arr[i];
     j = i;
 
-    while(j>0 && arr[j-1]>toInsert){
+    while(j>0 && arr[j-1]>el){
       arr[j] = arr[j-1];
       j--;
    }
@@ -14,4 +14,8 @@ function insertionSort(arr){
   }
 
   return arr;
+}
+
+if(typeof module !== 'undefined'){
+  module.exports = insertionSort;
 }

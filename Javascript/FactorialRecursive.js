@@ -21,5 +21,6 @@ function factorialOf(number){
   return 1;
 }
 
-// 5! == 5 * 4 * 3 * 2 * 1 == 120
-console.log(factorialOf(5)); // -> 120
+if(typeof module !== 'undefined'){
+	module.exports = factorialOf;
+}
