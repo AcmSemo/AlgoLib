@@ -57,7 +57,7 @@ describe("Selection Sort", () => {
 	it("Sorts an array of 10 integers into ascending order", () => {
 		const array = [8,6,7,5,3,0,9,2,4,1]
 
-		const sorted = InsertSort(array)
+		const sorted = SelectionSort(array)
 
 		expect(sorted).toEqual([0,1,2,3,4,5,6,7,8,9])
 	})
