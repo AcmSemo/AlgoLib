@@ -1,14 +1,10 @@
-function swap(input : number[], index_A : number, index_B : number) {
-    var temp = input[index_A];
- 
-    input[index_A] = input[index_B];
-    input[index_B] = temp;
- }
+import swap from "./swap";
 
 function selectionSort(items : number[]) : number[]{
-  var len = items.length,
-      min;
-  for (let i=0; i < len; i++){
+  const len = items.length;
+  let min;
+
+  for (let i = 0; i < len; i++){
       //set minimum to this position
       min = i;
       //check the rest of the array to see if anything is smaller

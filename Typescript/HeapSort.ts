@@ -1,9 +1,10 @@
-var array_length : number;
+import swap from "./Swap";
+
 /* to create MAX  array */
-function heap_root(input : number[], i : number) {
-   var left = 2 * i + 1;
-   var right = 2 * i + 2;
-   var max = i;
+function heap_root(input : number[], i : number, array_length : number) {
+   const left = 2 * i + 1;
+   const right = 2 * i + 2;
+   let max = i;
 
    if (left < array_length && input[left] > input[max]) {
        max = left;
@@ -15,23 +16,15 @@ function heap_root(input : number[], i : number) {
 
    if (max != i) {
        swap(input, i, max);
-       heap_root(input, max);
+       heap_root(input, max, array_length);
    }
 }
 
-function swap(input : number[], index_A : number, index_B : number) {
-   var temp = input[index_A];
-
-   input[index_A] = input[index_B];
-   input[index_B] = temp;
-}
-
 function heapSort(input : number[]) : number[] {
-
-   array_length = input.length;
+   let array_length = input.length;
 
    for (var i = Math.floor(array_length / 2); i >= 0; i -= 1)      {
-       heap_root(input, i);
+       heap_root(input, i, array_length);
      }
 
    for (i = input.length - 1; i > 0; i--) {
@@ -39,7 +32,7 @@ function heapSort(input : number[]) : number[] {
        array_length--;
 
 
-       heap_root(input, 0);
+       heap_root(input, 0, array_length);
    }
 
    return input;

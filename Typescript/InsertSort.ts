@@ -1,16 +1,18 @@
 function insertionSort(arr : number[]) : number[]{
-  var i, len = arr.length, el, j;
+  const len = arr.length;
+  let element;
+  let j;
 
-  for(i = 1; i<len; i++){
-    el = arr[i];
+  for(let i = 1; i<len; i++){
+    element = arr[i];
     j = i;
 
-    while(j>0 && arr[j-1]>el){
+    while(j > 0 && arr[j-1] > element){
       arr[j] = arr[j-1];
       j--;
    }
 
-   arr[j] = el;
+   arr[j] = element;
   }
 
   return arr;
