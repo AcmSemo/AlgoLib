@@ -1,4 +1,4 @@
-def selectionSort(array)
+def bubbleSort(array)
   length = array.length - 1
   
   for i in 0..length do
@@ -28,7 +28,7 @@ for element in array
   print " "
 end
 
-selectionSort(array)
+bubbleSort(array)
 
 print "\nOrdered array:\n"
 
