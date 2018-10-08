@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Unit Tests for AlgoLib algorithms in Javascript",
   "main": "index.js",
-  "author": "Teagan Durtschi",
+  "author": "",
   "license": "MIT",
   "private": false,
   "devDependencies": {

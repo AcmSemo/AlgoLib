@@ -1,0 +1,19 @@
+{
+  "name": "AlgoLib-ts",
+  "version": "1.0.0",
+  "description": "Algorithms in Typescript",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine-ts"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.9",
+    "jasmine": "^3.2.0",
+    "jasmine-ts": "^0.3.0",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "ts-node": "^7.0.1"
+  }
+}
