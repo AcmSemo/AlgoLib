@@ -1,7 +1,7 @@
 import kotlin.system.measureTimeMillis
 
 /**
- * @author trol
+ * @author trol0
  * @since 10/2/18
  */
 
